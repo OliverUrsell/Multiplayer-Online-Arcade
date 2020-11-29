@@ -1,0 +1,37 @@
+
+body{
+	margin: 2em;
+	margin-top: 2%;
+	text-align: center;
+	align-content: center;
+	background: linear-gradient(-45deg, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.error{
+	color:red;
+	display:none;
+}
+
+input[type="text"]{
+	width: 50%;
+	margin-left: 25%;
+	align-content: center;
+}
+
+button{
+	margin-top: 3rem;
+}
