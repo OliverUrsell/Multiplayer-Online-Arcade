@@ -1,0 +1,160 @@
+(0)  start|You come into the 'Ye Olde Tavern' after a long day's work. A regular in the establishment, you order your usual and sit down at the bar. Its not long until a brawl breaks out. What do you do?|-
+Join in|1|
+Keep drinking|3|
+Run out|2|
+Hide|4|
+(1)  fight|You try to stand up and get a punch out but a huge dwarf stops you in his tracks and knocks you over and you tumble to the floor. Some of the patrons in the tavern stop and jeer at you.|-
+Slap em back|6|
+Run away in embarrassment|2|
+
+
+(2)  escape|You run away and get on with your life.|-
+Start a new life in the mysterious woods|10|
+Start a business selling wooden knickknacks (market)|8|
+
+
+(3)  drink|You watch the chaos unfold as the crowd start fighting. There seems to be two sides: big burly folk that seem to have started it, and then everyone else that doesn't want to be a part of it|-
+Side with the Burlies|5|
+Side with the Others|6|
+Don't get involved|7|
+
+(4)  hide|You crouch behind some kegs as the battle continues. Chairs and tables go flying and you see a man get thrown into a keg, spilling it all over the floor.|-
+Join in|1|
+Wait|7|
+
+
+(5)  burly|Standing on the bar with a flask in hand, you bellow your allegience to the Burlies and make short work of knocking all the other patrons unconscious.|-
+Terrorize the market|21|
+Terrorize the woods|11|
+
+
+(6)  average|You've had enough of these brutes terrorizing your beloved bar every night. Your help manages to turn the tide, and you knock all the troublemakers unconscious. Now, on with the rest of your day...|-
+Time to start a new business venture!|8|
+Those woods look cool and mysterious!|10|
+
+
+(7)  ENDINGspeedrun|The boisterous orcs were too much for you.|speedrun
+Congratulations on dying in the quickest possible way!|0|
+option 2|0|
+
+
+(8)  marketstart|You wander into the bustling marketplace and smell the scents of candles and spices. This seems like the perfect place to set up a stall of your own. But what will you sell?|-
+Bread! I'll be a wholesome baker and get puppies and we will rise our way to the top!|13|
+Illegal goods! I'll trade anything as long as it pays well...|14|
+
+
+(9)  terrorizemarket|Picture a quiet market scene with shoppers milling about minding their own business. Then out of nowhere, you along with at least 20 drunken idiots start trashing the place, tearing down the store and ruining people's livelihoods.|-
+Why stop here when we can take the THRONE|21|
+Probably time to go home now|22|
+
+
+(10)  grovestart|Entering the woods you notice two paths up ahead.|-
+Take the left|11|
+Take the right|12|
+
+
+(11)  grovegolem|You stumble into a mossy clearing, and for a moment you swear you see some of the lichen-coloured boulders move. You blink, and there stands before you a giant earth golem. "We will let you pass, if you respect the wilds."|-
+Step on a leaf, making direct eye contact|27|
+Promise that you won't damage any nature while you're here|12|
+
+
+(12)  elementchoice|You reach a large glowing tree in the centre of the grove, instinctively reaching forward and touching it. You hear a voice in your head: "Water, Earth, Fire, Air - choose one and you may master it."|-
+Fire|28|
+Water|29|
+Air|30|
+Earth|31|
+(13)  ENDINGbreadboi|You become one the finest bakers in the land, and people come from all across the world to taste your doughy delights.|baker
+Surrounded by puppies and the smell of freshly baked bread, this is possibly the most wholesome ending.|0|
+option 2|0|
+
+
+(14)  blackmarket|So you've decided to become a black-market dealer out of nowhere! That takes guts! It was a risk to quit your job but it turns out if you don't get caught, selling these goods makes a HUGE PROFIT! What do you do with your resputable income?|-
+Buy a top of the range PC and start coding|15|
+Invest in more staff to sell more stuff|16|
+
+
+(15)  hackathon|As you type YoU gAiN CoNtROLL OF THE GAME LiTTLE bY LiTtlE|-
+playing = true; if(playing){win();}|23|
+Game g = new game; game.win();|24|
+
+
+(16)  extrastaff|You get some more people on board and they seem to like to profits too! Luckily for you you're rolling in dough so it doesn't bother you much|-
+Hire even more staff|18|
+Grow your 'store' into another 'branch'|17|
+
+
+(17)  newbranch|You open up another black market store in the nearby town and your connections give you access to even more expensive illegal stuff! You never could've dreamed that you could go this far!|-
+Go international|25|
+Set up a community project|20|
+
+
+(18)  extraextrabranch|Now you have a small army of villagers that are secretly doing your bidding away from the law. Things couldn't be going better financially! But this amount of wealth is definitely attracting some dangerous people...|-
+Hire Mercenaries|19|
+Get some legal business on the side|20|
+
+
+(19)  ENDINGmafia|Illegal dealings, bodyguards to protect you and minions to do your dirty work - this sounds awfully familiar|mafia
+Apparently the family is the friends you make along the way, you got the mafia ending|0|
+option 2|0|
+
+
+(20)  communityfund|You decide to set up a fund for the community that will help them in need. A lot of money is set aside, but you can sell off all your black market fortune to make a big difference in the world!|-
+Donate everything to the poor|26|
+Focus on getting your business global|25|
+
+
+(21)  ENDINGdrunk|You and your army of drunkards somehow overpower the guards, overthrow the king and get the crown! What a night!|drunk
+You got the drunk ending!|0|
+option2|0|
+
+
+(22)  ENDINGboring|Well back to normal life huh? People will be talking about that for weeks, maybe days...|boring
+Average - you got the Boring ending|0|
+option2|0|
+
+
+(23)  ENDINGcrashed| NullPointerException - win is not defined|crashed
+:( - you got the Crashed ending|0|
+option2|0|
+
+
+(24)  ENDINGhacked|You've hacked your way to victoy!|hacked
+Congratulations - you got the Hacker ending!|0|
+option2|0|
+
+
+(25)  ENDINGtycoon| You retire on your hoards of wealth - just don't become a dragon...|tycoon
+What an entrepreneur - you got the Tycoon ending!|0|
+option2|0|
+
+
+(26)  ENDINGmoral|Wow! How generous of you giving away your ill-gotten goods! Maybe you can return some of those organs...|moral
+What a generous soul with questionable morals - you got the Moral ending!|0|
+option2|0|
+
+
+(27)  ENDINGextinguished|The golem incinerates you on the spot|extinguished
+You really thought that was a good idea? - you got the Extinguised ending.|0|
+option2|0|
+
+
+(28)  ENDINGfirebender|The power of fire is in all life...|firebending
+You must face the path of the dragon (to be continued) - you got the Firebender ending.|0|
+option2|0|
+
+
+(29)  ENDINGwaterbending|Water is motion...|waterbending
+You must face the path of the dolphin (to be continued) - you got the Waterbender ending.|0|
+option2|0|
+
+
+(30)  ENDINGairbending|The winds of change blow...|airbending
+You must face the path of the eagle - you got the Airbender ending.|0|
+option2|0|
+
+
+(31)  ENDINGearthbending|Strong and sturdy you will withstand anything...|earthbending
+You must face the path of the mole - you got the Earthbender ending.|0|
+option2|0|
+
+
